@@ -6,3 +6,4 @@ services:
     tty: true
     volumes: 
       - "../src:/opt/src"
+      - "../dist:/opt/dist"
