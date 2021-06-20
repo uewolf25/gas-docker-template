@@ -1,0 +1,19 @@
+{
+  "name": "gas-docker-sample",
+  "version": "1.0.0",
+  "description": "This template make you develop with Docker and clasp without making worse in ur pc .",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uewolf25/gas-docker-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uewolf25/gas-docker-template/issues"
+  },
+  "homepage": "https://github.com/uewolf25/gas-docker-template#readme"
+}

@@ -1,6 +1,11 @@
-FROM node:12.0
+FROM node:16.3.0-alpine
 
-RUN npm -v
+WORKDIR /workdir
+
+#RUN npm -v
 
 RUN npm i -g @google/clasp
+
+
+
 

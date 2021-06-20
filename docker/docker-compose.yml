@@ -4,6 +4,9 @@ services:
     build: .
     container_name: 'gas-build'
     tty: true
+    working_dir: /workdir
     volumes: 
-      - "../src:/opt/src"
-      - "../dist:/opt/dist"
+      - ..:/workdir
+      - ../.clasprc.json:/root/.clasprc.json
+      # - ../src:/opt/src
+      # - ../dist:/opt/dist
