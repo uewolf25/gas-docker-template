@@ -1,0 +1,7 @@
+# not necessary for mac
+DS_Store*
+
+# env
+.clasprc.json
+
+
